@@ -1,27 +1,39 @@
-This is a Kotlin Multiplatform project targeting Android.
+Задание: Разработать экран профиля пользователя с настройками приложения на Kotlin Multiplatform с использованием MVVM архитектуры.
 
-* [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./composeApp/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./composeApp/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./composeApp/src/jvmMain/kotlin)
-    folder is the appropriate location.
+UI компоненты:
+- Аватар пользователя (placeholder)
+- Имя и email
+- Раздел "Настройки":
+  - Переключатель: Тёмная тема
+  - Переключатель: Уведомления
+  - Dropdown: Язык приложения
+  - Slider: Размер шрифта
+- Кнопка "Сохранить"
+- Кнопка "Выйти из аккаунта"
+- Диалог подтверждения выхода
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/1a3e468b-1f48-4ed0-ae5d-58187b16960a" />
+<br>
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/0950c829-ceab-4694-b372-e6b493fbdc3a" />
+<br>
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/af620b4f-4629-48d2-8c39-fae7cd13b505" />
+<br>
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/110b9223-1d6f-4a3c-b35b-89e627ad3bb0" />
+<br>
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/b03e656b-1a1f-406a-8282-7739dd2beeb2" />
+<br>
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/6c454f33-42cc-4cb2-bf87-c8c30ca33e86" />
 
-### Build and Run Android Application
+<br>
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/da845b9a-df1e-4023-9536-5568302655ce" />
 
-To build and run the development version of the Android app, use the run configuration from the run widget
-in your IDE’s toolbar or build it directly from the terminal:
-- on macOS/Linux
-  ```shell
-  ./gradlew :composeApp:assembleDebug
-  ```
-- on Windows
-  ```shell
-  .\gradlew.bat :composeApp:assembleDebug
-  ```
+<br>
 
----
+Видео на ютубе:
+https://youtube.com/shorts/jVFKSJsORzA?si=pTxhMsDeYtGNh1hO
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+
+
+
+
+
+
